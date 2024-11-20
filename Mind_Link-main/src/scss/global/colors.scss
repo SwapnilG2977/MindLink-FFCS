@@ -1,0 +1,41 @@
+
+
+$colors-light: (
+    primary: #797878,
+    primary-dark: #989696,
+    primary-light: #c8c8c8,
+    background: #ffffff,
+    text: #000000,
+    text-light: #808080,
+    table-border: #000000,
+    input-text: #212529,
+    input-border: #cccccc,
+    input-border-active: #86b7fe,
+    input-border-shadow: rgba(253, 13, 13, 0.25),
+    slot-button-selected: #f8ceff,
+    quick-button: #ffc107,
+    quick-button-highlight: #64dd17,
+    lab: #e2e2e2,
+    theory: #e2e2e2,
+    day-lunch: #c0c0c0,
+    period: #ffffff,
+    period-highlight: #fc6c85,
+    period-clash: #ff0000,
+    on-clash: #ffffff,
+    course-list-header-hover: #f1e7e2,
+);
+
+:root {
+    @each $name, $color in $colors-light {
+        --#{$name}-color: #{$color};
+    }
+}
+
+input::placeholder, // Standard
+input::-webkit-input-placeholder, // WebKit browsers
+input::-moz-placeholder, // Mozilla Firefox 19+
+input:-ms-input-placeholder, // Internet Explorer 10+
+input:-moz-placeholder {
+    // Mozilla Firefox 4 to 18
+    opacity: 0.55 !important; // Set the desired opacity (e.g., 0.1 for 10% opacity)
+}
