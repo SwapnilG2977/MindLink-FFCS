@@ -35,3 +35,13 @@ MindLink is an innovative web-based application designed to simplify and optimiz
 ## Goal
 
 - MindLink aims to empower students by enhancing efficiency, accuracy, and flexibility in academic planning, fostering overall student success.
+
+## Deployed Site
+
+Visit our platform here: [MindLink-FFCS](https://mind-link-alpha.vercel.app/#Vellore)
+
+![image](https://github.com/user-attachments/assets/1b5d6aa0-d827-471b-b8f9-803a2bfd30d9)
+![image](https://github.com/user-attachments/assets/bbf88996-3acb-457b-8bb5-326d082f5e13)
+![image](https://github.com/user-attachments/assets/f2f5f1c3-9a67-470a-b9dd-3e58006a5098)
+
+
